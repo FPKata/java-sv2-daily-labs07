@@ -36,5 +36,7 @@ class StoreTest {
         List<String > result = Files.readAllLines(path);
 
         assertEquals("T-shirt", result.get(0).split(";")[0]);
+        assertEquals(2, result.size());
+        assertEquals("soldProducts_November.csv", resultPath.toString());
     }
 }
