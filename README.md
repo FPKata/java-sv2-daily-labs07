@@ -1,1 +1,1 @@
-# java-sv2-daily-labs07
+### 7.heti konzultációs feladatok megoldása
